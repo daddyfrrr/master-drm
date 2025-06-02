@@ -75,7 +75,7 @@ keyboard = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(text="🛠️ Help", url="https://t.me/daddyfrrr"),
-            InlineKeyboardButton(text="🛠️ Repo", url="#"),
+            InlineKeyboardButton(text="🛠️ Repo", url="https://t.me/daddyfrrr"),
         ],
     ]
 )
