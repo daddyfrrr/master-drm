@@ -996,7 +996,7 @@ async def text_handler(bot: Client, m: Message):
 
                 elif ".pdf" in url:
                     if "cwmediabkt99" in url:
-                        max_retries = 15  # Define the maximum number of retries
+                        max_retries = 500  # Define the maximum number of retries
                         retry_delay = 4  # Delay between retries in seconds
                         success = False  # To track whether the download was successful
                         failure_msgs = []  # To keep track of failure messages
